@@ -54,6 +54,15 @@ h2 a:active{color:pink;}
 h2 a:visited{color:#b6b4c2;}
 
 
-
+.breadcrumbnav {list-style:none;}
+.breadcrumbnav li {display: inline-block;}
+.breadcrumbnav li {font-weight: bold;}
+.breadcrumbnav li::after {content:">";}
+.breadcrumbnav li:last-child::after {content:"";}
+.breadcrumbnav a {text-decoration:none;}
+.breadcrumbnav {color:#ff35c2;}
+.breadcrumbnav a:hover{color:#4fa8fb;}
+.breadcrumbnav a:active{color:#f4ff43;}
+.breadcrumbnav a:visited{color:black;}
 
 
